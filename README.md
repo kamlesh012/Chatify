@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# Chatify
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Chatify is a Full Stack Chatting App.
+Uses Socket.io for real time communication and stores user details in encrypted format in Mongo DB Database.
 
-## Available Scripts
+## Tech Stack
 
-In the project directory, you can run:
+**Client:** React JS
 
-### `npm start`
+**Server:** Node JS, Express JS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Database:** Mongo DB
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo
 
-### `npm test`
+![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/group%20%2B%20notif.PNG)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Run Locally
 
-### `npm run build`
+Clone the project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  git clone https://github.com/piyush-eon/mern-chat-app
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Go to the project directory
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  cd mern-chat-app
+```
 
-### `npm run eject`
+Install dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+  npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+  cd frontend/
+  npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Start the server
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+  npm run start
+```
 
-## Learn More
+Start the Client
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+  //open now terminal
+  cd frontend
+  npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Features
 
-### Code Splitting
+### Authenticaton
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/login.PNG)
+![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/signup.PNG)
 
-### Analyzing the Bundle Size
+### Real Time Chatting with Typing indicators
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/real-time.PNG)
 
-### Making a Progressive Web App
+### One to One chat
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/mainscreen.PNG)
 
-### Advanced Configuration
+### Search Users
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/search.PNG)
 
-### Deployment
+### Create Group Chats
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/new%20grp.PNG)
 
-### `npm run build` fails to minify
+### Notifications
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/group%20%2B%20notif.PNG)
+
+### Add or Remove users from group
+
+![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/add%20rem.PNG)
+
+### View Other user Profile
+
+![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/profile.PNG)
+
+## Made By
+
+- [@Piyush-eon](https://github.com/piyush-eon)
